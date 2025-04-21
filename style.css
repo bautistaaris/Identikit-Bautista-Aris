@@ -211,7 +211,7 @@ header ul li a:hover {
 .batacont img{
     width: 50%;
     align-items: center;
-    border-radius: 35px;
+    border-radius: 12px;
 }
 
 
@@ -323,12 +323,12 @@ header ul li a:hover {
     text-align: center;
 }
 
-#musica aside ul li{
-    list-style: none;
+#musica aside ol li{
     padding: 10px;
+    font-family: "Inter", sans-serif;
 }
 
-#musica aside ul li a{
+#musica aside ol li a{
     font-family: "Inter", sans-serif;
     font-size: 20px;
     color: #000000;
@@ -336,7 +336,7 @@ header ul li a:hover {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-#musica aside ul li a:hover {
+#musica aside ol li a:hover {
     background-color: #e2e8f0;
     padding: 5px;
     color: #1e293b;
